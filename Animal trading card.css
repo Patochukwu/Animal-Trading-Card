@@ -1,0 +1,64 @@
+img {
+  /* border: 5px solid red; */
+  width: 20em;
+}
+
+.box {
+  border: 1px solid rgb(26, 25, 25);
+  width: 37%;
+  background-color: azure;
+  margin-left: 25em;
+  height: 42em;
+}
+
+.main {
+  /* border: 5px solid yellow; */
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  /* border: 5px solid blue; */
+  padding-left: 1em;
+}
+
+.article {
+  /* border: 5px solid blue; */
+  width: 30em;
+  padding: 30px;
+  font-style: italic;
+}
+.buttondiv {
+  /* border: 5px solid pink; */
+  padding: 10px;
+  width: 20em;
+  margin-left: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.button1 {
+  /* border: 5px solid green; */
+  padding: 5px;
+  size: 10px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+:hover.button1 {
+  color: rgb(91, 93, 94);
+}
+
+.button2 {
+  /* border: 5px solid green; */
+  padding: 5px;
+  font-size: larger;
+  border-radius: 20px;
+  cursor: pointer;
+}
+:hover.button2 {
+  color: rgb(91, 93, 94);
+}
